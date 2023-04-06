@@ -59,6 +59,8 @@ nav ul {
 
 p{
     font-size: 2rem;
+    padding: 1rem;
+    font-style: oblique;
 }
 
 button{
