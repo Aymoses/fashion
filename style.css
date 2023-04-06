@@ -1,0 +1,130 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-head {
+  /* width: 90%;
+  margin: auto; */
+  background: #131c27;
+  color: white;
+  position: sticky;
+  top: 0px;
+  z-index: 3;
+}
+
+
+
+nav {
+  min-height: 10vh;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  flex: 1 1 20rem;
+  justify-content: space-around;
+}
+
+#logo {
+  flex: 1 1 20rem;
+  font-family: "Pattaya", sans-serif;
+  font-weight: 400;
+} 
+
+.hero {
+   background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
+    url("./images/pexels-danik-prihodko-15983819.jpg");
+  min-height: 90vh;
+  background-size: cover;
+  background-position: center; 
+  /* width: 90%;
+  margin: auto; */
+   color:  #131c27;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+p{
+    font-size: 2rem;
+}
+
+button{
+    padding: 2rem 6rem;
+    background: #4c6e97;
+    border: none;
+    border-radius: 1rem;
+    color: white;
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+
+button:hover{
+    background-color: #4c6e97;
+    font-size: 4rem;
+}
+
+.ay-gallery{
+    text-align : center;
+    margin-top: 1rem;
+    color: #4c6e97; 
+}
+ .cards{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    min-height: 70vh;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #4c6e97;
+   
+}
+
+ .card{
+    text-align: center;
+    flex: 1 1 25rem;
+    min-height: 40vh;
+    margin: 2rem 5rem;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+ }
+.card-icon{
+    background-color: #27394e;
+}
+.about-us{
+     text-align : center;
+    margin-top: 1rem;
+    color: white; 
+}
+.about{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    background-color: #4c6e97;
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 10px;
+    border-bottom-right-radius: 5rem;
+    border-top-left-radius:5rem ;
+}
+
+.video{
+    color: black;
+    
+}
+
+
+
